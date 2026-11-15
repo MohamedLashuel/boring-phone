@@ -1,0 +1,326 @@
+{
+  "groups": [
+    {
+      "id": "appearance",
+      "title": "Appearance",
+      "tasks": [
+        {
+          "id": "grayscale",
+          "title": "Grayscale",
+          "summary": "Turn the screen black and white so apps and icons are less eye-catching.",
+          "symbol": "circle.lefthalf.filled",
+          "opensSettings": true,
+          "slides": [
+            {
+              "title": "Why grayscale?",
+              "body": "Apps use bright colors to grab your attention. Without color, red badges and colorful feeds lose a lot of their pull.",
+              "media": {
+                "kind": "image",
+                "description": "A colorful Home Screen next to the same screen in grayscale"
+              }
+            },
+            {
+              "title": "Search for Color Filters",
+              "body": "Open Settings, pull down to reveal the search bar, and search for “Color Filters”.",
+              "media": {
+                "kind": "animation",
+                "description": "Opening Settings and typing “Color Filters” into the search bar"
+              }
+            },
+            {
+              "title": "Turn on Grayscale",
+              "body": "Turn on Color Filters and make sure Grayscale is selected.",
+              "media": {
+                "kind": "animation",
+                "description": "Toggling Color Filters on and selecting Grayscale"
+              }
+            }
+          ]
+        },
+        {
+          "id": "reduce-motion",
+          "title": "Reduce Motion",
+          "summary": "Tone down zooming and sliding animations across the system.",
+          "symbol": "figure.walk.motion",
+          "opensSettings": true,
+          "slides": [
+            {
+              "title": "Why reduce motion?",
+              "body": "Smooth, springy animations make using your phone feel satisfying. Reducing them makes it feel plainer.",
+              "media": {
+                "kind": "animation",
+                "description": "An app opening with the normal zoom animation, then with Reduce Motion's fade"
+              }
+            },
+            {
+              "title": "Search for Reduce Motion",
+              "body": "Open Settings and search for “Reduce Motion”.",
+              "media": {
+                "kind": "animation",
+                "description": "Typing “Reduce Motion” into the Settings search bar"
+              }
+            },
+            {
+              "title": "Turn it on",
+              "body": "Turn on Reduce Motion.",
+              "media": {
+                "kind": "animation",
+                "description": "Toggling Reduce Motion on"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wallpapers",
+          "title": "Wallpapers",
+          "summary": "Set plain black Home and Lock Screen wallpapers.",
+          "symbol": "photo",
+          "opensSettings": true,
+          "slides": [
+            {
+              "title": "Go plain",
+              "body": "A plain black wallpaper gives your eyes nothing to linger on and keeps the focus on what you came to do.",
+              "media": {
+                "kind": "image",
+                "description": "Lock Screen and Home Screen with plain black wallpapers"
+              }
+            },
+            {
+              "title": "Search for Wallpaper",
+              "body": "Open Settings, search for “Wallpaper” and tap Add New Wallpaper.",
+              "media": {
+                "kind": "animation",
+                "description": "Searching “Wallpaper” and tapping Add New Wallpaper"
+              }
+            },
+            {
+              "title": "Choose black",
+              "body": "Pick Color, choose black and tap Add. When asked, use it for both the Lock Screen and the Home Screen.",
+              "media": {
+                "kind": "animation",
+                "description": "Choosing Color, selecting black, and setting it as a wallpaper pair"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friction",
+      "title": "Friction",
+      "tasks": [
+        {
+          "id": "home-pages",
+          "title": "Home Pages",
+          "summary": "Clear your Home Screen pages and Today view, and keep new apps in the App Library.",
+          "symbol": "square.grid.3x3",
+          "opensSettings": false,
+          "slides": [
+            {
+              "title": "Out of sight",
+              "body": "When apps aren't sitting on your Home Screen, opening one becomes a choice instead of a reflex. Everything stays available in the App Library.",
+              "media": {
+                "kind": "image",
+                "description": "An empty Home Screen with only the dock"
+              }
+            },
+            {
+              "title": "Hide your pages",
+              "body": "Touch and hold the Home Screen until the icons jiggle, tap the page dots at the bottom, and uncheck every page.",
+              "media": {
+                "kind": "animation",
+                "description": "Entering jiggle mode, tapping the page dots, and unchecking pages"
+              }
+            },
+            {
+              "title": "Clear the Today view",
+              "body": "Swipe right on the first Home Screen page to reach the Today view. Touch and hold, then remove each widget.",
+              "media": {
+                "kind": "animation",
+                "description": "Removing widgets from the Today view"
+              }
+            },
+            {
+              "title": "Keep new apps hidden",
+              "body": "In Settings, search for “Newly Downloaded Apps” and choose App Library Only.",
+              "media": {
+                "kind": "animation",
+                "description": "Searching Settings and selecting App Library Only"
+              }
+            }
+          ]
+        },
+        {
+          "id": "wake-and-unlock",
+          "title": "Wake & Unlock",
+          "summary": "Turn off Raise to Wake, Tap to Wake and Face ID unlock.",
+          "symbol": "faceid",
+          "opensSettings": true,
+          "slides": [
+            {
+              "title": "Make waking deliberate",
+              "body": "Without these, your phone only lights up and unlocks when you really mean it — no glancing at it every time you pick it up.",
+              "media": {
+                "kind": "image",
+                "description": "A phone being picked up and the screen staying dark"
+              }
+            },
+            {
+              "title": "Raise to Wake",
+              "body": "Open Settings, search for “Raise to Wake” and turn it off.",
+              "media": {
+                "kind": "animation",
+                "description": "Searching “Raise to Wake” and toggling it off"
+              }
+            },
+            {
+              "title": "Tap to Wake",
+              "body": "Search for “Tap to Wake” and turn it off.",
+              "media": {
+                "kind": "animation",
+                "description": "Searching “Tap to Wake” and toggling it off"
+              }
+            },
+            {
+              "title": "Face ID unlock",
+              "body": "Search for “Face ID & Passcode”, enter your passcode, and turn off iPhone Unlock under Use Face ID For.",
+              "media": {
+                "kind": "animation",
+                "description": "Turning off iPhone Unlock in Face ID & Passcode"
+              }
+            }
+          ]
+        },
+        {
+          "id": "require-passcode",
+          "title": "Require Passcode",
+          "summary": "Ask for your passcode immediately every time the phone locks.",
+          "symbol": "lock",
+          "opensSettings": true,
+          "slides": [
+            {
+              "title": "No grace period",
+              "body": "By default your phone may stay unlocked for a few minutes after the screen turns off. Setting this to Immediately means every unlock needs your passcode.",
+              "media": null
+            },
+            {
+              "title": "Do this after Face ID",
+              "body": "This option only appears once Face ID unlock is off — with Face ID on, iOS always requires it immediately. Finish Wake & Unlock first.",
+              "media": null
+            },
+            {
+              "title": "Set it to Immediately",
+              "body": "In Settings, search for “Face ID & Passcode”, enter your passcode, tap Require Passcode and choose Immediately.",
+              "media": {
+                "kind": "animation",
+                "description": "Setting Require Passcode to Immediately"
+              }
+            }
+          ]
+        },
+        {
+          "id": "long-password",
+          "title": "Long Password",
+          "summary": "Use a long alphanumeric passcode so unlocking takes real effort.",
+          "symbol": "character.cursor.ibeam",
+          "opensSettings": true,
+          "slides": [
+            {
+              "title": "A little effort goes a long way",
+              "body": "Typing a long password each time gives you a moment to ask whether you really need your phone right now.",
+              "media": null
+            },
+            {
+              "title": "Change your passcode",
+              "body": "In Settings, search for “Face ID & Passcode”, enter your passcode and tap Change Passcode.",
+              "media": {
+                "kind": "animation",
+                "description": "Opening Face ID & Passcode and tapping Change Passcode"
+              }
+            },
+            {
+              "title": "Choose Custom Alphanumeric",
+              "body": "Tap Passcode Options, choose Custom Alphanumeric Code, and enter something long that you won't forget.",
+              "media": {
+                "kind": "animation",
+                "description": "Choosing Custom Alphanumeric Code in Passcode Options"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notifications",
+      "title": "Notifications",
+      "tasks": [
+        {
+          "id": "scheduled-summary",
+          "title": "Scheduled Summary",
+          "summary": "Get non-urgent notifications in batches instead of all day long.",
+          "symbol": "bell.badge",
+          "opensSettings": true,
+          "slides": [
+            {
+              "title": "Fewer interruptions",
+              "body": "Scheduled Summary collects notifications from the apps you choose and delivers them together at set times.",
+              "media": {
+                "kind": "image",
+                "description": "A notification summary on the Lock Screen"
+              }
+            },
+            {
+              "title": "Search for Scheduled Summary",
+              "body": "Open Settings, search for “Scheduled Summary” and turn it on.",
+              "media": {
+                "kind": "animation",
+                "description": "Searching “Scheduled Summary” and turning it on"
+              }
+            },
+            {
+              "title": "Pick times and apps",
+              "body": "Choose when summaries arrive, then select the apps whose notifications can wait.",
+              "media": {
+                "kind": "animation",
+                "description": "Setting summary times and choosing apps"
+              }
+            }
+          ]
+        },
+        {
+          "id": "notification-badges",
+          "title": "Notification Badges",
+          "summary": "Hide the red counters on app icons so they stop calling you back.",
+          "symbol": "app.badge",
+          "opensSettings": true,
+          "slides": [
+            {
+              "title": "Red means urgent — usually it isn't",
+              "body": "Badges are designed to nag. A red number makes an app feel like it needs you, even when nothing important is waiting.",
+              "media": {
+                "kind": "image",
+                "description": "App icons with red badges next to the same icons without them"
+              }
+            },
+            {
+              "title": "Open Notifications",
+              "body": "Open Settings and tap Notifications. Badges are switched off one app at a time, so start with the apps that pull you in most.",
+              "media": {
+                "kind": "animation",
+                "description": "Opening Settings and tapping Notifications"
+              }
+            },
+            {
+              "title": "Turn off Badges",
+              "body": "Tap an app, then turn off Badges. Repeat for every app whose counter you don't need to see.",
+              "media": {
+                "kind": "animation",
+                "description": "Choosing an app in Notifications and toggling Badges off"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "intro": "Widgets put a gentle nudge where you'll see it most — on your Home Screen and Lock Screen. Pick the ones you like, then follow the steps to add them.",
+  "guides": [
+    {
+      "placement": "homeScreen",
+      "title": "Add a Home Screen widget",
+      "slides": [
+        {
+          "title": "Enter edit mode",
+          "body": "Touch and hold an empty area of the Home Screen until the icons jiggle, then tap Edit in the top corner and choose Add Widget.",
+          "media": {
+            "kind": "animation",
+            "description": "Long-pressing the Home Screen, tapping Edit, then Add Widget"
+          }
+        },
+        {
+          "title": "Find the widget",
+          "body": "Search for the app the widget belongs to — BoringPhone or Screen Time — and swipe through the sizes.",
+          "media": {
+            "kind": "animation",
+            "description": "Searching the widget gallery and browsing sizes"
+          }
+        },
+        {
+          "title": "Add it",
+          "body": "Tap Add Widget, drag it where you want it, and tap Done.",
+          "media": {
+            "kind": "animation",
+            "description": "Adding a widget and placing it on the Home Screen"
+          }
+        }
+      ]
+    },
+    {
+      "placement": "lockScreen",
+      "title": "Add a Lock Screen widget",
+      "slides": [
+        {
+          "title": "Customize your Lock Screen",
+          "body": "Unlock your phone without leaving the Lock Screen, then touch and hold it. Tap Customize and choose Lock Screen.",
+          "media": {
+            "kind": "animation",
+            "description": "Long-pressing the Lock Screen and entering customization"
+          }
+        },
+        {
+          "title": "Open the widget area",
+          "body": "Tap the box below the clock to see the widgets you can add.",
+          "media": {
+            "kind": "animation",
+            "description": "Tapping the widget area under the clock"
+          }
+        },
+        {
+          "title": "Add it",
+          "body": "Find BoringPhone in the list, tap the widget you want, then tap Done.",
+          "media": {
+            "kind": "animation",
+            "description": "Adding the BoringPhone widget to the Lock Screen"
+          }
+        }
+      ]
+    }
+  ],
+  "widgets": [
+    {
+      "id": "reminder",
+      "title": "Reminder",
+      "description": "Asks why you're picking up your phone, every time you look at it.",
+      "media": {
+        "kind": "image",
+        "description": "The BoringPhone reminder widget on the Lock Screen and Home Screen"
+      },
+      "placements": [
+        "lockScreen",
+        "homeScreen"
+      ],
+      "widgetText": "What did you pick up your phone for?"
+    },
+    {
+      "id": "clock-mode",
+      "title": "Clock Mode",
+      "description": "One tap opens Clock locked in Guided Access, so your phone can sit on a desk or nightstand without tempting you. Needs Guided Access turned on (see Device Features › Guided Access) and the Clock Mode shortcut installed.",
+      "media": {
+        "kind": "image",
+        "description": "The Clock Mode widget, and a phone on a nightstand showing only the Clock app"
+      },
+      "placements": [
+        "lockScreen",
+        "homeScreen"
+      ],
+      "widgetText": "Clock Mode"
+    },
+    {
+      "id": "screen-time",
+      "title": "Screen Time",
+      "description": "Apple's Screen Time widget keeps today's total in view, so you notice when it's creeping up.",
+      "media": {
+        "kind": "image",
+        "description": "Home Screen with a Screen Time widget"
+      },
+      "placements": [
+        "homeScreen"
+      ],
+      "widgetText": null
+    }
+  ]
+}

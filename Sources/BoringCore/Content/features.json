@@ -1,0 +1,189 @@
+{
+  "articles": [
+    {
+      "id": "screen-time",
+      "title": "Screen Time",
+      "symbol": "hourglass",
+      "summary": "See how you use your phone and set limits on apps, categories and times of day.",
+      "sections": [
+        {
+          "heading": "How it works",
+          "blocks": [
+            { "type": "paragraph", "text": "Screen Time tracks how long you spend in each app, how often you pick up your phone, and which apps send you the most notifications. On top of those reports, it lets you set limits." },
+            { "type": "bullets", "items": [
+              "App Limits: a daily time allowance for an app or a whole category, like Social or Games.",
+              "Downtime: a schedule when only the apps you allow are available.",
+              "Always Allowed: apps that stay available during Downtime, such as Phone and Maps.",
+              "Communication Limits: control who can contact you, and when.",
+              "Content & Privacy Restrictions: block specific apps, features and content entirely.",
+              "Screen Time Passcode: a separate passcode needed to change these settings or get more time."
+            ] },
+            { "type": "media", "media": { "kind": "image", "description": "The Screen Time overview with a weekly usage chart" } }
+          ]
+        },
+        {
+          "heading": "Use cases",
+          "blocks": [
+            { "type": "bullets", "items": [
+              "Give a single app you overuse a short daily limit.",
+              "Use Downtime overnight so only calls, messages and alarms work.",
+              "Check your weekly report to see where your time actually goes."
+            ] }
+          ]
+        },
+        {
+          "heading": "Turning it on or off",
+          "blocks": [
+            { "type": "paragraph", "text": "Open Settings and search for “Screen Time”. Tap App & Website Activity to start tracking, then set up App Limits or Downtime from the same screen. To stop, tap App & Website Activity again and turn it off." },
+            { "type": "media", "media": { "kind": "animation", "description": "Searching Screen Time in Settings and adding an App Limit" } }
+          ]
+        },
+        {
+          "heading": "Drawbacks",
+          "blocks": [
+            { "type": "bullets", "items": [
+              "If you know the Screen Time passcode, “Ignore Limit” is only a tap away. Consider asking someone you trust to set the passcode.",
+              "Limits are per day, so they don't stop you from using all your time at once.",
+              "Usage reports can occasionally be inaccurate or slow to update."
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "title": "Focus",
+      "symbol": "moon",
+      "summary": "Silence notifications and hide distractions based on what you're doing.",
+      "sections": [
+        {
+          "heading": "How it works",
+          "blocks": [
+            { "type": "paragraph", "text": "A Focus is a mode that controls which people and apps can notify you. Do Not Disturb, Sleep and Work are built in, and you can create your own." },
+            { "type": "bullets", "items": [
+              "Choose which people and apps are allowed to break through.",
+              "Show only certain Home Screen pages while a Focus is on.",
+              "Link a Focus to a Lock Screen so it changes with the mode.",
+              "Turn it on automatically by time, location, or when you open an app.",
+              "Share your Focus status so others see you have notifications silenced."
+            ] },
+            { "type": "media", "media": { "kind": "image", "description": "Focus settings showing allowed people and apps" } }
+          ]
+        },
+        {
+          "heading": "Use cases",
+          "blocks": [
+            { "type": "bullets", "items": [
+              "A Work Focus that shows a Home Screen page with only work apps.",
+              "A Sleep schedule that silences everything but favorite contacts.",
+              "A custom Focus for time with friends or family."
+            ] }
+          ]
+        },
+        {
+          "heading": "Turning it on or off",
+          "blocks": [
+            { "type": "paragraph", "text": "Open Control Center and tap Focus to switch a mode on or off. To set one up, open Settings, search for “Focus”, and pick a mode or tap + to create one." },
+            { "type": "media", "media": { "kind": "animation", "description": "Turning a Focus on from Control Center" } }
+          ]
+        },
+        {
+          "heading": "Drawbacks",
+          "blocks": [
+            { "type": "bullets", "items": [
+              "Focus only silences notifications — every app still opens normally.",
+              "Silenced notifications still pile up and wait for you afterwards.",
+              "You might miss something important if you don't set up allowed people carefully."
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guided-access",
+      "title": "Guided Access",
+      "symbol": "lock.rectangle",
+      "summary": "Lock your phone into a single app until you enter a passcode.",
+      "sections": [
+        {
+          "heading": "How it works",
+          "blocks": [
+            { "type": "paragraph", "text": "Guided Access keeps your iPhone in one app. You can't go to the Home Screen or switch apps until you end the session with a passcode or Face ID. You can also disable parts of the screen and set a time limit." },
+            { "type": "media", "media": { "kind": "image", "description": "The Guided Access options screen" } }
+          ]
+        },
+        {
+          "heading": "Use cases",
+          "blocks": [
+            { "type": "paragraph", "text": "Guided Access is a great way to use one helpful app without being pulled into others." },
+            { "type": "bullets", "items": [
+              "Clock: turn your phone into a bedside or desk clock and alarm that can't distract you.",
+              "Google Maps on the go: start navigation, then lock the phone into Maps so you aren't tempted to check anything else while traveling.",
+              "Reading or studying in a single app for a set amount of time."
+            ] },
+            { "type": "media", "media": { "kind": "animation", "description": "Starting Guided Access in Google Maps during navigation" } }
+          ]
+        },
+        {
+          "heading": "Turning it on or off",
+          "blocks": [
+            { "type": "paragraph", "text": "Open Settings, search for “Guided Access”, turn it on and set a passcode. To start a session, open the app you want and triple-click the side button, then tap Start. To end it, triple-click the side button again and enter your Guided Access passcode." },
+            { "type": "media", "media": { "kind": "animation", "description": "Triple-clicking the side button and tapping Start" } }
+          ]
+        },
+        {
+          "heading": "Drawbacks",
+          "blocks": [
+            { "type": "bullets", "items": [
+              "It's all or nothing — you can't quickly check another app without ending the session.",
+              "If you set the passcode yourself, it's easy to end the session whenever you want.",
+              "Forgetting to end a session can be confusing later."
+            ] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assistive-access",
+      "title": "Assistive Access",
+      "symbol": "square.grid.2x2",
+      "summary": "A simplified iPhone with large buttons and only the apps you choose.",
+      "sections": [
+        {
+          "heading": "How it works",
+          "blocks": [
+            { "type": "paragraph", "text": "Assistive Access replaces the usual iPhone interface with a simple one: a grid or list of large buttons for a handful of chosen apps. Supported apps like Calls, Messages, Camera and Photos get streamlined versions." },
+            { "type": "media", "media": { "kind": "image", "description": "The Assistive Access Home Screen with a few large app buttons" } }
+          ]
+        },
+        {
+          "heading": "Use cases",
+          "blocks": [
+            { "type": "bullets", "items": [
+              "The closest thing to a true “dumb phone” on iPhone: calls, messages, camera and little else.",
+              "A weekend or vacation mode with only the essentials.",
+              "Setting up a simple phone for a family member."
+            ] }
+          ]
+        },
+        {
+          "heading": "Turning it on or off",
+          "blocks": [
+            { "type": "paragraph", "text": "Open Settings, search for “Assistive Access” and tap Set Up Assistive Access. Follow the steps to choose a layout, pick apps and set a passcode. To start it, tap Start Assistive Access. To exit, triple-click the side button and enter the Assistive Access passcode." },
+            { "type": "media", "media": { "kind": "animation", "description": "Walking through Assistive Access setup" } }
+          ]
+        },
+        {
+          "heading": "Drawbacks",
+          "blocks": [
+            { "type": "bullets", "items": [
+              "Setup takes a while, and the phone restarts its interface when you enter or exit.",
+              "Apps without a streamlined version may look cramped or work differently.",
+              "Most settings can't be changed without exiting Assistive Access."
+            ] }
+          ]
+        }
+      ]
+    }
+  ]
+}

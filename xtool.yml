@@ -1,2 +1,7 @@
 version: 1
-bundleID: com.example.Hello
+bundleID: com.example.BoringPhone
+product: BoringPhone
+infoPath: Support/BoringPhone-Info.plist
+extensions:
+- product: BoringWidgets
+  infoPath: Support/BoringWidgets-Info.plist

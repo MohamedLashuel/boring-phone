@@ -1,0 +1,19 @@
+{
+  "slides": [
+    {
+      "title": "Welcome to BoringPhone",
+      "body": "Placeholder: onboarding content is still being written. This slide will introduce the idea of making your iPhone a little more boring.",
+      "media": { "kind": "animation", "description": "Placeholder: welcome animation" }
+    },
+    {
+      "title": "Guide, Delays and Features",
+      "body": "Placeholder: this slide will explain the three tabs — the Guide of settings to change, App Delays, and the built-in Device Features.",
+      "media": { "kind": "image", "description": "Placeholder: overview of the three tabs" }
+    },
+    {
+      "title": "Ready when you are",
+      "body": "Placeholder: closing slide. You can come back to this introduction at any time with the Help button in the Guide tab.",
+      "media": null
+    }
+  ]
+}
